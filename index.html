@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./calculator.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="myCal">
+            <div class="calculator">
+                <h1>CALCULATOR</h1>
+
+                <input class="box" type="text" id="display" disabled>
+
+                <div class="wholeButton">
+
+                    <button onclick="insert('7')">7</button>
+                    <button onclick="insert('8')">8</button>
+                    <button onclick="insert('9')">9</button>
+                    <button onclick="insert('/')">/</button>
+
+
+
+                    <button onclick="insert('4')">4</button>
+                    <button onclick="insert('5')">5</button>
+                    <button onclick="insert('6')">6</button>
+                    <button onclick="insert('*')">*</button>
+
+
+                    <button onclick="insert('1')">1</button>
+                    <button onclick="insert('2')">2</button>
+                    <button onclick="insert('3')">3</button>
+                    <button onclick="insert('-')">-</button>
+
+
+
+                    <button onclick="insert('0')">0</button>
+                    <button onclick="insert('.')">.</button>
+                    <button onclick="insert('+')">+</button>
+                    <button onclick="equal('=')">=</button>
+
+                    <button onclick="cleardisplay()">C</button>
+                    <button onclick="deleteLast()">DEL</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
